@@ -1,50 +1,166 @@
-# Welcome to your Expo app 👋
+# 💰 Expense Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern and user-friendly **Expense Tracker mobile application** built with **React Native and Expo**. This app helps users manage their income and expenses through a clean, intuitive, and responsive mobile interface.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+* 🔐 User authentication screens
+* 💰 Track income and expenses
+* ➕ Add new expenses
+* ✏️ Edit expense information
+* 🗑️ Delete expenses
+* 📊 View expense history
+* 📈 Analytics and financial overview
+* 👤 User profile management
+* 🌙 Dark mode support
+* 📱 Mobile-friendly interface
+* 🎨 Clean and modern UI
+* ⚡ Built with Expo for cross-platform development
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+* **React Native** – Mobile application development
+* **Expo** – Development and build platform
+* **TypeScript** – Type-safe development
+* **React** – Component-based UI
+* **Expo Router** – File-based navigation
+* **React Hooks** – State and component logic
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Project Structure
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+Expense-Tracker-App/
+│
+├── app/
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   ├── login.tsx
+│   ├── signup.tsx
+│   ├── home.tsx
+│   ├── addexpense.tsx
+│   ├── history.tsx
+│   ├── analytics.tsx
+│   └── profile.tsx
+│
+├── assets/
+│   └── images/
+│
+├── components/
+│
+├── constants/
+│
+├── context/
+│
+├── hooks/
+│
+├── scripts/
+│
+├── app.json
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-## Learn more
+### 1. Clone the repository
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+git clone https://github.com/aimonarshad803-cyber/Expense-Tracker-App.git
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 2. Navigate to the project
 
-## Join the community
+```bash
+cd Expense-Tracker-App
+```
 
-Join our community of developers creating universal apps.
+### 3. Install dependencies
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm install
+```
+
+### 4. Start the Expo development server
+
+```bash
+npx expo start
+```
+
+### 5. Run the application
+
+You can open the project using:
+
+* 📱 Expo Go
+* 🤖 Android Emulator
+* 🍎 iOS Simulator
+* 🌐 Web Browser
+
+## 📸 Screenshots
+
+Screenshots of the application will be added here to showcase the user interface and main features.
+
+## 🎯 Main Screens
+
+### 🔐 Login & Sign Up
+
+Users can access the application through dedicated authentication screens.
+
+### 🏠 Home
+
+Provides an overview of the user's financial activity and current balance.
+
+### ➕ Add Expense
+
+Allows users to add new expense records.
+
+### 📜 History
+
+Displays previously added transactions and expenses.
+
+### 📊 Analytics
+
+Provides a visual overview of spending and financial activity.
+
+### 👤 Profile
+
+Allows users to manage their profile and application preferences, including dark mode.
+
+## 📚 What I Learned
+
+Through this project, I practiced:
+
+* React Native development
+* Expo workflow
+* TypeScript
+* Component-based architecture
+* File-based routing with Expo Router
+* React Hooks
+* Mobile UI/UX design
+* State management
+* Form handling
+* Navigation between screens
+* Building responsive mobile interfaces
+
+## 🚀 Future Improvements
+
+* ☁️ Cloud database integration
+* 🔔 Expense reminders and notifications
+* 📤 Export financial reports
+* 🔎 Advanced transaction search and filtering
+* 📅 Monthly and yearly financial reports
+* 📊 More advanced charts and analytics
+* 🔐 Secure authentication and cloud synchronization
+
+## 👩‍💻 Author
+
+**Aimon Arshad**
+
+Frontend & React Native Developer
+
+Currently learning and building projects with React.js, React Native, and the MERN Stack.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star!
+
