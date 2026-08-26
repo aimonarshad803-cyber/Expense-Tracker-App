@@ -98,7 +98,18 @@ You can open the project using:
 
 ## 📸 Screenshots
 
-Screenshots of the application will be added here to showcase the user interface and main features.
+### 🔐 Login
+![Login Screen](screenshots/login.jpeg)
+### ➕ Add Expense
+![Add Expense Screen](screenshots/addExpense.jpeg)
+### 📜 History
+![History Screen](screenshots/history.jpeg)
+### 📊 Analytics
+![Analytics Screen](screenshots/analytics.jpeg)
+### 🏠 Home
+![Home Screen](screenshots/UI.jpeg)
+### 👤 Profile
+![Profile Screen](screenshots/profile.jpeg)
 
 ## 🎯 Main Screens
 
